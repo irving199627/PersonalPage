@@ -1,0 +1,231 @@
+<div class="wrapper">
+    <div class="page-header page-header-xs" data-parallax="true" style="background-image: url('./assets/img/web2.png');">
+        <div class="filter"></div>
+    </div>
+    <div class="section profile-content">
+        <div class="container">
+            <div class="owner">
+                <div class="avatar">
+                    <img src="./assets/img/faces/joe-gardner-2.jpg" alt="Circle Image" class="img-circle img-no-padding img-responsive">
+                </div>
+                <div class="name">
+                    <h4 class="title">Irving Rosado<br /></h4>
+                    <h6 class="description">Ingeniero en Sistemas Computacionales</h6>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 ml-auto mr-auto text-center">
+                    <p>An artist of considerable range, Jane Faker — the name taken by Melbourne-raised, Brooklyn-based Nick Murphy — writes, performs and records all of his own music, giving it a warm, intimate feel with a solid groove structure. </p>
+                </div>
+            </div>
+            <br/>
+            <p class="mb-0 mt-0 h2 text-left">Portafolio</p>
+            <button class="btn btn-outline-primary mb-2 mr-2" (click)="openXl(content)" *ngIf="lS.estaLogeado()">Agregar</button>
+            <div class="nav-tabs-navigation">
+                <div class="nav-tabs-wrapper">
+                    <ngb-tabset [justify]="'center'">
+                        <ngb-tab title="Web">
+                            <ng-template ngbTabContent>
+                                <div class="" id="follows">
+                                    <div class="col-lg-12 col-md-12 col-sm-12">
+
+                                        <div class="card-columns">
+                                            <div class="card text-left">
+                                                <img class="card-img-top" src="./assets/img/login-image.jpg" alt="Card image cap">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Card title</h4>
+                                                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                    <a href="#" class="card-link">Card link</a>
+                                                </div>
+                                            </div>
+
+                                            <!-- <div class="card text-left">
+                                                <img class="card-img-top" src="./assets/img/login-image.jpg" alt="Card image cap">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Card title</h4>
+                                                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                    <a href="#" class="card-link">Card link</a>
+                                                </div>
+                                            </div>
+                                            <div class="card text-left">
+                                                <img class="card-img-top" src="./assets/img/login-image.jpg" alt="Card image cap">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Card title</h4>
+
+                                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                    <a href="#" class="card-link">Card link</a>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <img class="card-img-top" src="./assets/img/login-image.jpg" alt="Card image cap">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Card title</h4>
+                                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                    <a href="#" class="card-link">Card link</a>
+                                                </div>
+                                            </div>-->
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </ng-template>
+                        </ngb-tab>
+                        <ngb-tab title="Móvil">
+                            <ng-template ngbTabContent>
+                                <h3 class="text-muted">Not following anyone yet :(</h3>
+                                <br>
+                                <button class="btn btn-warning btn-round">Find artists</button>
+                            </ng-template>
+                        </ngb-tab>
+                    </ngb-tabset>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="section section-dark text-center">
+        <div class="container">
+            <h2 class="title">Equipo de trabajo</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card card-profile card-plain">
+                        <div class="card-avatar">
+                            <a href="#avatar"><img src="./assets/img/faces/clem-onojeghuo-3.jpg" alt="..."></a>
+                        </div>
+                        <div class="card-block">
+                            <a href="#paper-kit">
+                                <div class="author">
+                                    <h4 class="card-title">Fuchis 'waifu' López</h4>
+                                    <h6 class="card-category">Ingeniero en Sistemas</h6>
+                                </div>
+                            </a>
+                            <p class="card-description text-center">
+                                Teamwork is so important that it is virtually impossible for you to reach the heights of your capabilities or make the money that you want without becoming very good at it.
+                            </p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="#pablo" class="btn btn-link btn-just-icon btn-neutral"><i class="fa fa-twitter"></i></a>
+                            <a href="#pablo" class="btn btn-link btn-just-icon btn-neutral"><i class="fa fa-facebook"></i></a>
+                            <a href="#pablo" class="btn btn-link btn-just-icon btn-neutral"><i class="fa fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card card-profile card-plain">
+                        <div class="card-avatar">
+                            <a href="#avatar"><img src="./assets/img/faces/joe-gardner-2.jpg" alt="..."></a>
+                        </div>
+                        <div class="card-block">
+                            <a href="#paper-kit">
+                                <div class="author">
+                                    <h4 class="card-title">Noni 'el perro' Poot</h4>
+                                    <h6 class="card-category">Ingeniero en Sistemas</h6>
+                                </div>
+                            </a>
+                            <p class="card-description text-center">
+                                A group becomes a team when each member is sure enough of himself and his contribution to praise the skill of the others. No one can whistle a symphony. It takes an orchestra to play it.
+                            </p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="#pablo" class="btn btn-link btn-just-icon btn-neutral"><i class="fa fa-twitter"></i></a>
+                            <a href="#pablo" class="btn btn-link btn-just-icon btn-neutral"><i class="fa fa-google-plus"></i></a>
+                            <a href="#pablo" class="btn btn-link btn-just-icon btn-neutral"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card card-profile card-plain">
+                        <div class="card-avatar">
+                            <a href="#avatar"><img src="./assets/img/faces/erik-lucatero-2.jpg" alt="..."></a>
+                        </div>
+                        <div class="card-block">
+                            <a href="#paper-kit">
+                                <div class="author">
+                                    <h4 class="card-title">Robert Orben</h4>
+                                    <h6 class="card-category">Developer</h6>
+                                </div>
+                            </a>
+                            <p class="card-description text-center">
+                                The strength of the team is each individual member. The strength of each member is the team. If you can laugh together, you can work together, silence isn’t golden, it’s deadly.
+                            </p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="#pablo" class="btn btn-link btn-just-icon btn-neutral"><i class="fa fa-twitter"></i></a>
+                            <a href="#pablo" class="btn btn-link btn-just-icon btn-neutral"><i class="fa fa-google-plus"></i></a>
+                            <a href="#pablo" class="btn btn-link btn-just-icon btn-neutral"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<ng-template #content let-modal>
+    <div class="modal-header">
+        <h4 class="modal-title">Modal title</h4>
+        <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+                <span aria-hidden="true">&times;</span>
+              </button>
+    </div>
+
+    <div class="modal-body">
+        <form role="form" #myForm="ngForm" accept-charset="" ngValidate enctype="multipart/form-data">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input type="text" [(ngModel)]="pS.titulo" name="titulo" class="form-control" placeholder="Título">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input type="text" [(ngModel)]="pS.subtitulo" name="subtitulo" class="form-control" placeholder="Subtítulo">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input type="text" [(ngModel)]="pS.url" name="url" class="form-control" placeholder="URL">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <select class="form-control" [(ngModel)]="pS.tipo" name="tipo">
+                                  <option>Tipo</option>
+                                  <option value="web" >Web</option>
+                                  <option value="movil">Móvil</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-12 ">
+                    <textarea class="form-control" [(ngModel)]="pS.descripcion" name="descripcion" rows="4" placeholder="Descripción"></textarea>
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-12">
+                    <div class="custom-file">
+                        <input type="file" class="custom-file-input" id="validatedCustomFile" required (change)="pS.uploadFile($event)">
+                        <label class="custom-file-label" for="validatedCustomFile">Seleccionar imagen</label>
+                    </div>
+                    <!-- <div class="progress mt-3">
+                        <div class="progress-bar progress-bar-striped" role="progressbar" [style.width]="(pS.uploadProgress | async) + '%'" [attr.aria-valuenow]="(pS.uploadProgress | async)" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div> -->
+                    <p class="mt-3">
+                        <ngb-progressbar showValue="true" type="primary" [striped]="true" [animated]="true" [value]="pS.uploadProgress | async"></ngb-progressbar>
+                    </p>
+
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-12">
+                    <img [src]="pS.img" alt="" class="img-fluid">
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-light" (click)="modal.close('Close click')">Close</button>
+        <button class="btn btn-primary" (click)="pS.subirImagen()">Subir</button>
+    </div>
+</ng-template>
